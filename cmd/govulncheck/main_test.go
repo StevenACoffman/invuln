@@ -16,12 +16,12 @@ import (
 	"testing"
 	"unsafe"
 
+	"github.com/StevenACoffman/invuln/external/govulncheck"
+	"github.com/StevenACoffman/invuln/external/test"
+	"github.com/StevenACoffman/invuln/external/web"
+	"github.com/StevenACoffman/invuln/scan"
 	"github.com/google/go-cmdtest"
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/internal/test"
-	"golang.org/x/vuln/internal/web"
-	"golang.org/x/vuln/scan"
 )
 
 var update = flag.Bool("update", false, "update test files with results")

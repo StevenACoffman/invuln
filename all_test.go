@@ -17,8 +17,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/StevenACoffman/invuln/external/testenv"
 	"golang.org/x/mod/modfile"
-	"golang.org/x/vuln/internal/testenv"
 )
 
 // excluded contains the set of modules that x/vuln should not depend on.

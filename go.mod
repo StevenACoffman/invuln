@@ -1,4 +1,4 @@
-module golang.org/x/vuln
+module github.com/StevenACoffman/invuln
 
 go 1.22.0
 

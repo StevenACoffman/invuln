@@ -17,7 +17,7 @@ import (
 	"io"
 	"os"
 
-	"golang.org/x/vuln/internal/scan"
+	"github.com/StevenACoffman/invuln/external/scan"
 )
 
 // Cmd represents an external govulncheck command being prepared or run,

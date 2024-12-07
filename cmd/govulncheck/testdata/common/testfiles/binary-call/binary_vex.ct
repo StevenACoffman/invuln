@@ -7,7 +7,7 @@ $ govulncheck -format openvex -mode binary ${common_vuln_binary}
   "author": "Unknown Author",
   "timestamp": "2024-01-01T00:00:00",
   "version": 1,
-  "tooling": "https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck",
+  "tooling": "https://pkg.go.dev/github.com/StevenACoffman/invuln/cmd/govulncheck",
   "statements": [
     {
       "vulnerability": {

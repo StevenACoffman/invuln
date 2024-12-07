@@ -8,7 +8,7 @@ $ govulncheck -mode=binary ${moddir}/vuln/vuln_main_v0.3.1 --> FAIL 3
 === Symbol Results ===
 
 Vulnerability #1: GO-9999-9999
-    A fake vulnerability in golang.org/x/vuln
+    A fake vulnerability in github.com/StevenACoffman/invuln
   More info: https://pkg.go.dev/vuln/GO-9999-9999
   Module: golang.org/vuln
     Found in: golang.org/vuln@v0.3.1
