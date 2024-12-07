@@ -31,7 +31,7 @@ Usage:
   -version
     	print the version information
 
-For details, see https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck.
+For details, see https://pkg.go.dev/github.com/StevenACoffman/invuln/cmd/govulncheck.
 
 #####
 # Not scanning anything.

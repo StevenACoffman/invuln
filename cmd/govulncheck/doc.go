@@ -62,15 +62,15 @@ smaller than the binary, that can also be passed to govulncheck as an argument w
 
 # Integrations
 
-Govulncheck supports streaming JSON. For more details, please see [golang.org/x/vuln/internal/govulncheck].
+Govulncheck supports streaming JSON. For more details, please see [github.com/StevenACoffman/invuln/internal/govulncheck].
 
 Govulncheck also supports Static Analysis Results Interchange Format (SARIF) output
 format, following the specification at https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=sarif.
-For more details, please see [golang.org/x/vuln/internal/sarif].
+For more details, please see [github.com/StevenACoffman/invuln/internal/sarif].
 
 Govulncheck supports the Vulnerability EXchange (VEX) output format, following
 the specification at https://github.com/openvex/spec.
-For more details, please see [golang.org/x/vuln/internal/openvex].
+For more details, please see [github.com/StevenACoffman/invuln/internal/openvex].
 
 # Exit codes
 

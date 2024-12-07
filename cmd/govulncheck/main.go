@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/StevenACoffman/invuln/scan"
 	"golang.org/x/telemetry"
-	"golang.org/x/vuln/scan"
 )
 
 func main() {

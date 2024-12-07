@@ -1,3 +1,10 @@
 **/.terraform/*
 .terraform.lock.hcl
 terraform/terraform.tfvars
+
+# IDE and platform cruft
+.DS_Store
+
+.idea
+.vscode
+.history

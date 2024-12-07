@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"golang.org/x/vuln/cmd/govulncheck/integration/internal/integration"
+	"github.com/StevenACoffman/invuln/cmd/govulncheck/integration/internal/integration"
 )
 
 const usage = `test helper for examining the output of running govulncheck on
@@ -33,7 +33,7 @@ func main() {
 		"golang.org/x/net/http2":                                true,
 		"golang.org/x/net/http2/hpack":                          true,
 		"google.golang.org/grpc":                                true,
-		"google.golang.org/grpc/internal/transport":             true,
+		"google.golang.org/grpc/external/transport":             true,
 	}
 
 	if err := integration.CompareVulns(out, want); err != nil {

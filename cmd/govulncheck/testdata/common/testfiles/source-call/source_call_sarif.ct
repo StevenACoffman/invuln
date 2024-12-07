@@ -10,7 +10,7 @@ $ govulncheck -C ${moddir}/vuln -format sarif ./...
         "driver": {
           "name": "govulncheck",
           "semanticVersion": "v0.0.0",
-          "informationUri": "https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck",
+          "informationUri": "https://pkg.go.dev/github.com/StevenACoffman/invuln/cmd/govulncheck",
           "properties": {
             "protocol_version": "v1.0.0",
             "scanner_name": "govulncheck",
@@ -508,7 +508,7 @@ $ govulncheck -C ${moddir}/novuln -format sarif ./...
         "driver": {
           "name": "govulncheck",
           "semanticVersion": "v0.0.0",
-          "informationUri": "https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck",
+          "informationUri": "https://pkg.go.dev/github.com/StevenACoffman/invuln/cmd/govulncheck",
           "properties": {
             "protocol_version": "v1.0.0",
             "scanner_name": "govulncheck",
